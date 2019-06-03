@@ -6,9 +6,12 @@ output:
   html_document:
     css: styles.css
     toc: true
-    toc_float: true
+    toc_float:
+      toc_collapsed: true
+    toc_depth: 3
+    number_sections: false
     fig_caption: true
-    theme: flatly
+    theme: lumen
 ---
 
 ```{r setup, include=FALSE}
