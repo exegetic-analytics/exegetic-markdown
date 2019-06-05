@@ -17,6 +17,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, comment = NA)
 
-options(tibble.print_min = 5, str = strOptions(strict.width = "wrap"))
+options(
+  tibble.print_min = 5,
+  width = 80,
+  str = strOptions(strict.width = "wrap")
+)
 ```
 
