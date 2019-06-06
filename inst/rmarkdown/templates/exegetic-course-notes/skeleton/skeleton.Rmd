@@ -12,6 +12,9 @@ output:
     number_sections: false
     fig_caption: true
     theme: lumen
+    highlight: tango
+    code_folding: hide
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
