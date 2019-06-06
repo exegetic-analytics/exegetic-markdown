@@ -1,3 +1,4 @@
 name: "Exegetic: Course Notes"
 description: Exegetic course notes as a HTML document
 create_dir: TRUE
+self_contained: TRUE
