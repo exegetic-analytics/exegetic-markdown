@@ -21,5 +21,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, comment = NA)
 
 options(tibble.print_min = 5, width = 80, digits = 3, str = strOptions(strict.width = "wrap"))
-```
 
+set.seed(13)
+```
